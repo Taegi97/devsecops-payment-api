@@ -19,7 +19,7 @@
 graph TD
     A[사용자] --> B(웹 / 앱)
     B --> C{API 게이트웨이}
-    C --> D[결제 서비스<br/>(Container)]
+    C --> D[결제 서비스 (Container)]
     D <--> E((사용자 DB))
 ```
 
